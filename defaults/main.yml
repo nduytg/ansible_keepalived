@@ -1,0 +1,8 @@
+---
+# defaults file for ./roles/keepalived
+# Should use mainline version in default config
+keepalived_version: 2.0.19
+
+keepalived_build_dir: "/tmp/keepalived"
+keepalived_conf_dir: "/etc/keepalived"
+keepalived_sbin_dir: "/usr/local/sbin"
